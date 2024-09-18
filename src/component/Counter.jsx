@@ -9,9 +9,7 @@ function Counter() {
 
   return (
     <div>
-      <h3 style={{ color: theme == "light" ? "#000" : "#fff" }}>
-        Counter: {count}
-      </h3>
+      <h3 style={{ color: theme.colors.color }}>Counter: {count}</h3>
       <button onClick={() => dispatch(increase())}>increase</button>
     </div>
   );
