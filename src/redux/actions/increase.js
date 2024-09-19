@@ -1,7 +1,9 @@
+import actionTypes from "./actionTypes";
+
 // action
 const increase = () => {
   return {
-    type: "inc",
+    type: actionTypes.INC,
   };
 };
 
